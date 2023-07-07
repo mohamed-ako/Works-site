@@ -1,0 +1,283 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-fluid-background-with-colorful-gradient_747896-5300.jpg?w=1060");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+    padding: 0px;
+    margin: 0%;
+
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+}
+
+:root {
+    --first: rgb(72, 164, 255);
+    --second: rgb(0, 85, 170);
+    --backgr: rgb(255, 255, 255);
+    --color: rgb(10, 13, 45);
+}
+.btn {
+    /* align-self: center; */
+    background-color: rgba(0, 0, 0, 0.21);
+    border: 1px solid rgb(1, 0, 0);
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 120px;
+    }
+    .btn:hover {
+        background-color: #ffffff;
+        color: #000000;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        
+        }
+        .btn:active{
+        background-color: #ffffff;
+        color: #000000;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        }    
+    /* @keyframes colors {
+        0% {background-image: linear-gradient( rgb(85, 228, 247), rgb(138, 1, 122));}
+        50% {background-color: rgb(25, 214, 189);}
+        /* 50% {background-image: linear-gradient(rgb(1, 102, 115),rgb(250, 118, 235), rgb(5, 42, 46));} */
+        /* 100% {background-image: linear-gradient( rgb(125, 1, 111), rgb(85, 228, 247));}
+        
+        }      */
+a {
+    text-decoration: none;
+
+}
+
+nav {
+    height: 50px;
+background-color: var(--color);
+}
+
+nav div {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    /* box-shadow: 0px 10px 10px gray; */
+}
+
+nav a {
+    color: var(--backgr);
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 0px 0px 2px white;
+}
+nav a:active{
+    text-shadow: 0px 0px 5px white;
+    text-decoration: underline;
+
+}
+.home {
+    width: 100vw;
+   
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.home h1{
+    font-size: 55px;
+}
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+
+}
+
+.left {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+}
+.left *{
+    margin-left: 40px;
+}
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.services {
+    width: 100%;
+   
+}
+
+
+.content {
+    height: 20%;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+}
+.content .left{
+    width: 80%;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80%;
+    background-image: linear-gradient(to right, rgb(0, 113, 128), rgb(250, 118, 235));
+background-size: cover;
+background-position: center;
+/* animation-name: colors;
+animation-duration: 5s;
+animation-iteration-count: infinite; */
+    /* margin-top: 50px; */
+
+}
+
+.services .card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 400px;
+    margin: 20px;
+    height: 240px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.269);
+    filter: grayscale(100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card:hover {
+    background-color: aliceblue;
+    box-shadow: 0 0 20px rgb(253, 253, 253);
+    color: palevioletred;
+}
+
+.card img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.about{
+    display: flex;
+    /* background-image: linear-gradient(to right, rgb(0, 113, 128), rgb(250, 118, 235));
+    background-size: cover;
+    background-position: center; */
+    background-color: var(--color);
+}
+.about .right{
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    height: 100%;
+}
+.about .card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 40%;
+    margin: 20px;
+    height: 40%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(0, 113, 128), rgb(250, 118, 235));
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+footer{
+    background-color: var(--color);
+}
+
+@media(max-width:992px){
+ .home{
+display: flex;
+flex-flow: column wrap;
+ }
+ .home .right{
+    order: 1 ;
+ }
+ .home .left{
+    order: 2;
+ }
+ section{
+    height: auto;
+ }   
+ .cards{
+    display: flex;
+    flex-flow: row wrap;
+ }
+ .cards .card{
+    margin: 10px;
+    width: 45%;
+ }
+ .content{
+    display: flex;
+    flex-flow: column;
+ }
+ .about{
+    display: flex;
+flex-flow: column wrap;
+ }
+ .about .left{
+    order:2
+ }
+ .about .right{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    /* height: 2000px; */
+ }
+ .left *{
+    margin-left: 0px;
+}
+ .about .card{
+    margin: 10px;
+    width: 45%;
+ }
+
+ .left,.right{
+    width: 100%;
+    text-align: center;
+ }
+
+}
