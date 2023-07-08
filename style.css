@@ -216,7 +216,7 @@ animation-iteration-count: infinite; */
     margin: 20px;
     height: 40%;
     border-radius: 30px;
-    background-image: linear-gradient(to right, rgb(0, 113, 128), rgb(250, 118, 235));
+    background-image: linear-gradient( rgb(0, 113, 128), rgb(250, 118, 235));
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -310,14 +310,14 @@ flex-flow: column ;
      padding:0px;
  }
  .cards .card{
-    margin: 10px;
+    margin: 6px;
     width: 45%;
     height: 28vh;
  }
  .content{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: start;
     align-items: center;
  }
 
