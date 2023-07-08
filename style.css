@@ -306,6 +306,8 @@ flex-flow: column ;
  .cards{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
+     padding:0px;
  }
  .cards .card{
     margin: 10px;
@@ -318,10 +320,7 @@ flex-flow: column ;
     justify-content: space-between;
     align-items: center;
  }
- /* .services{
-    display: flex;
-    flex-flow: row nowrap;
- } */
+
  .services .left{
     width: 70%;
 
@@ -348,7 +347,7 @@ flex-flow: column wrap;
 }
  .about .card{
     margin: 10px;
-    width: 45%;
+    width: 42%;
  }
 .about .left{
     width: 100%;
