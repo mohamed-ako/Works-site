@@ -319,6 +319,15 @@ flex-flow: column ;
     height: 40px;
     margin-left: 10px;
 }
+    .card h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1;
+}
  .content{
     display: flex;
     flex-flow: row wrap;
