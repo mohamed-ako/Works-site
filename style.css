@@ -273,6 +273,9 @@ footer{
 
 
 @media(max-width:992px){
+    nav div {
+    margin: 0 auto;
+    width: 80%;}
  .home{
 height: 100vh;
 display: flex;
