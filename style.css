@@ -314,6 +314,11 @@ flex-flow: column ;
     width: 45%;
     height: 28vh;
  }
+    .cards img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
  .content{
     display: flex;
     flex-flow: row wrap;
