@@ -19,7 +19,7 @@ This project is a professional profile website designed for a developer. It show
 </b> Ensures the website is accessible and looks great on all devices.
 </li>
 </ul>
-Tech Stack
+## Tech Stack
 <ul><li><b>HTML:
 </b> For structuring the content.
 </li>
