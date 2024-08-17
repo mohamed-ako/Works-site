@@ -34,12 +34,13 @@ This project is a professional profile website designed for a developer. It show
 </b> For interactive elements and dynamic content.
 </li>
 </ul>
+
 # Installation
 ## Clone the repository:
 
 ### `git clone https://github.com/mohamed-ako/Works-site.git`
 ### `cd developer-profile`
-Open the ### `index.html` file in a web browser to view the website.
+Open the <b> index.html </b> file in a web browser to view the website.
 
 Usage
 Explore the website to view the developer's profile, portfolio, and contact information.
